@@ -25,11 +25,12 @@ PROPRIETARY_FILES := \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
+    lib/libsecril-client.so \
     vendor/firmware/vbc_eq \
-    etc/wifi/bcmdhd_apsta.bin \
-    etc/wifi/bcmdhd_mfg.bin \
-    etc/wifi/bcmdhd_sta.bin \
-    etc/wifi/nvram_net.txt \
+    vendor/etc/wifi/bcmdhd_apsta.bin \
+    vendor/etc/wifi/bcmdhd_mfg.bin \
+    vendor/etc/wifi/bcmdhd_sta.bin \
+    vendor/etc/wifi/nvram_net.txt \
     vendor/firmware/BCM43430A1_001.002.009.0013.0017_ORC_Goya_VE_37_4MHz.hcd \
     lib/libisp.so \
     lib/libmorpho_easy_hdr.so \
