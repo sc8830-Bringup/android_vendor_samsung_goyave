@@ -26,6 +26,7 @@ PROPRIETARY_FILES := \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
     vendor/firmware/vbc_eq \
+    bin/macloader \
     vendor/firmware/BCM43430A1_001.002.009.0013.0017_ORC_Goya_VE_37_4MHz.hcd \
     lib/libisp.so \
     lib/libmorpho_easy_hdr.so \
