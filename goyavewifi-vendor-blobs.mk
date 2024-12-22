@@ -17,16 +17,11 @@
 PROPRIETARY_FILES := \
     bin/engpc \
     lib/libatparser.so \
-    etc/gps.conf \
     bin/gpsd \
     lib/libsprd_agps_agent.so \
     lib/hw/gps.default.so \
     lib/libboost.so \
     lib/egl/libGLES_mali.so \
-    etc/audio_hw.xml \
-    etc/audio_para \
-    etc/codec_pga.xml \
-    etc/tiny_hw.xml \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
@@ -35,6 +30,7 @@ PROPRIETARY_FILES := \
     lib/libisp.so \
     lib/libmorpho_easy_hdr.so \
     lib/libuvdenoise.so \
+    lib/libsecnativefeature.so \
     lib/libomx_aacdec_sprd.so \
     lib/libomx_mp3dec_sprd.so \
     lib/libomx_avcdec_hw_sprd.so \
@@ -42,7 +38,6 @@ PROPRIETARY_FILES := \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-    lib/hw/camera.sc8830.so \
     lib/hw/gralloc.sc8830.so \
     lib/hw/hwcomposer.sc8830.so \
     lib/hw/sensors.sc8830.so \
