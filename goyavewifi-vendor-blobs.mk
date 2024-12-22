@@ -39,10 +39,7 @@ PROPRIETARY_FILES := \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-    lib/hw/gralloc.sc8830.so \
-    lib/hw/hwcomposer.sc8830.so \
-    lib/hw/sensors.sc8830.so \
-    lib/hw/sprd_gsp.sc8830.so
+    lib/hw/sensors.sc8830.so
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/goyavewifi/proprietary/$(f):system/$(f))
