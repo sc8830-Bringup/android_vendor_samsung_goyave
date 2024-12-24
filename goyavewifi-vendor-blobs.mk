@@ -24,8 +24,6 @@ PROPRIETARY_FILES := \
     lib/egl/libGLES_mali.so \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
-    lib/libatchannel.so \
-    lib/libsecril-client.so \
     vendor/firmware/vbc_eq \
     vendor/etc/wifi/bcmdhd_apsta.bin \
     vendor/etc/wifi/bcmdhd_mfg.bin \
@@ -39,9 +37,11 @@ PROPRIETARY_FILES := \
     lib/libomx_aacdec_sprd.so \
     lib/libomx_mp3dec_sprd.so \
     lib/libomx_avcdec_hw_sprd.so \
+    lib/libomx_avcdec_sw_sprd.so \
     lib/libomx_avcenc_hw_sprd.so \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
+    lib/libomx_m4vh263dec_sw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
     lib/hw/sensors.sc8830.so
 
