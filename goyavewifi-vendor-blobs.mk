@@ -44,7 +44,7 @@ PROPRIETARY_FILES := \
     vendor/lib/libomx_m4vh263dec_sw_sprd.so \
     vendor/lib/libomx_m4vh263enc_hw_sprd.so \
     vendor/lib/sensors.vendor.sc8830.so \
-    vendor/lib/libcamsensors.so
+    vendor/lib/hw/camera.sc8830.so
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/goyavewifi/proprietary/$(f):system/$(f))
